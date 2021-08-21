@@ -11,7 +11,7 @@ print "This perl script was written by Catherine Attard\nPlease cite Attard et a
 print "\nThe script is designed for introducing missing data to genotype data simulated with no missing data\n";
 
 if (not defined ($proportion)) {
-	print "\nYou have not defined the missing data rate. The correct command useage for this perl script is:\nperl CoancestryAllelicDropout.pl missing_data_rate working_directory_(optional)\n";
+	print "\nYou have not defined the missing data rate. The correct command useage for this perl script is:\nperl SimulatingMissingData.pl missing_data_rate working_directory_(optional)\n";
 	exit;
 	}
 
